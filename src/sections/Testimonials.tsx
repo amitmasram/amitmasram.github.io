@@ -44,7 +44,7 @@ const testimonials = [
 
 export const TestimonialsSection = () => {
   return (
-  <div className="py-16 lg:py-24 bg-black/60">
+  <div className="py-16 lg:py-24 bg-black/85">
   <div className="container">
     <SectionHeader  eyebrow="Happy Clients" title="What clients about me" description="See how my work has made a difference for clients and why they love collaborating with me."/>
 
