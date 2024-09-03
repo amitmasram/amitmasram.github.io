@@ -40,7 +40,7 @@ const portfolioProjects = [
       { title: "Connecting users with nearby experts." },
       { title: "Increased mobile traffic by 35%" },
     ],
-    link: "https://youtu.be/Z7I5uSRHMHg",
+    link: "https://github.com/Amitmasram/ProFinder---App",
     image: aiStartupLandingPage,
   },
 ];
