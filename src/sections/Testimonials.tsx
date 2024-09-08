@@ -10,12 +10,12 @@ import { Card } from "@/components/Card";
 import { Fragment } from "react";
 
 const testimonials = [
-  {
-    name: "Saurabh Soni",
-    position: "Marketing Manager @ TechStartups",
-    text: "I'm on a journey to become a skilled engineer, passionately coding and constantly improving my craft.",
-    avatar: memojiAvatar1,
-  },
+      {
+            name: "Saurabh Soni",
+            position: "Shop Owner @ Galaxyspot",
+            text: "Amit developed an exceptional website for my shop, Galaxyspot. His attention to detail and creative approach have significantly enhanced my online presence. I highly recommend his services!",
+            avatar: memojiAvatar1,
+          },
   {
     name: "Olivia Green",
     position: "Head of Design @ GreenLeaf",
@@ -46,7 +46,7 @@ export const TestimonialsSection = () => {
   return (
   <div className="py-16 lg:py-24 bg-black/85">
   <div className="container">
-    <SectionHeader  eyebrow="Happy Clients" title="What clients about me" description="See how my work has made a difference for clients and why they love collaborating with me."/>
+    <SectionHeader  eyebrow="Happy Clients" title="What Clients About Me" description="See how my work has made a difference for clients and why they love collaborating with me."/>
 
     <div className="mt-12 lg:mt-20 flex overflow-x-clip [mask-image:linear-gradient(to_right,transparent,black_10%,black_90%,transparent)] p-4 -my-4">
       <div  className="flex gap-8 pr-8 flex-none animate-move-left [animation-duration:90s] hover:[animation-play-state:paused]">

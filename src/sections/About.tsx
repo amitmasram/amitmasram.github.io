@@ -3,7 +3,7 @@
 import { Card } from "@/components/Card";
 import { SectionHeader } from "@/components/SectionHeader";
 import { useRef } from "react";
-import bookImage from "@/assets/images/book-cover.png";
+import bookImage from "@/assets/images/As-a-man-thinketh-book-cover.jpg";
 import Image from "next/image";
 import TypescriptIcon from "@/assets/icons/icons8-typescript (2).svg";
 import JavascriptIcon from "@/assets/icons/square-js.svg";
@@ -19,7 +19,7 @@ import SupabseIcon from "@/assets/icons/icons8-supabase (1).svg";
 import MongoIcon from "@/assets/icons/download (4).svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import NodeIcon from "@/assets/icons/icons8-nodejs-512.svg";
-import mapImage from "@/assets/images/map.png";
+import mapImage from "@/assets/images/sf.png";
 import smileMemoji from "@/assets/images/memoji-smile.png"
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
@@ -60,19 +60,19 @@ const toolboxItems = [
             title: "Dart",
             iconType: Dart,
       },
-      {
-            title: "HTML5",
-            iconType: HTMLIcon,
-      },
-      {
-            title: "CSS3",
-            iconType:CSSIcon,
-      },
+      // {
+      //       title: "HTML5",
+      //       iconType: HTMLIcon,
+      // },
+      // {
+      //       title: "CSS3",
+      //       iconType:CSSIcon,
+      // },
 
-      {
-            title: "Chrome",
-            iconType:ChromeIcon,
-      },
+      // {
+      //       title: "Chrome",
+      //       iconType:ChromeIcon,
+      // },
       {
             title: "Firebase",
             iconType: FirebaseIcon,
@@ -91,56 +91,73 @@ const toolboxItems = [
             iconType:GithubIcon,
       },
 
+
 ];
 
 
 const hobbies = [
       {
        title: "Netflix",
-       emoji:"🎬",
-       left:'5%',
-       top:'5%',
+       emoji: "🎬",
+       left: '5%',
+       top: '5%',
       },
       {
             title: "Podcast",
-            emoji:"📷",
-            left:'50%',
-            top:'5%',
-
-      },
-
-      {
-            title: "writing",
-            emoji:"✍️",
-            left:'35%',
-            top:'40%',
+            emoji: "🎧", // Correct emoji for podcasts
+            left: '50%',
+            top: '5%',
       },
       {
-            title: "Gaming",
-            emoji:"🎮",
-            left:'10%',
-            top:'35%',
+            title: "Writing",
+            emoji: "✍️",
+            left: '35%',
+            top: '40%',
       },
       {
             title: "Music",
-            emoji:"🎵",
-            left:'70%',
-            top:'45%',
+            emoji: "🎵",
+            left: '70%',
+            top: '45%',
       },
-
       {
             title: "Fitness",
-            emoji:"🏋️",
-            left:'5%',
-            top:'65%',
+            emoji: "🏋️",
+            left: '5%',
+            top: '65%',
       },
       {
             title: "Reading",
-            emoji:"📚",
-            left:'45%',
-            top:'70%',
+            emoji: "📚",
+            left: '45%',
+            top: '70%',
+      },
+      {
+            title: "AI & AGI",
+            emoji: "🤖",
+            left: '70%',
+            top: '30%',
+      },
+      {
+            title: "Tech Trends",
+            emoji: "🚀",
+            left: '50%',
+            top: '55%',
+      },
+      {
+            title: "Travel",
+            emoji: "🌍",
+            left: '20%',
+            top: '75%',
+      },
+      {
+            title: "Wildlife",
+            emoji: "🦁",
+            left: '65%',
+            top: '80%',
       },
 ];
+
 
 
 export const AboutSection = () => {

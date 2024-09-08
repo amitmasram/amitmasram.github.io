@@ -33,8 +33,8 @@ const portfolioProjects = [
   },
   {
     company: "Status",
-    year: "Ongoing",
-    title: "ProFinder App",
+    year: "Completed",
+    title: "AI-Image-Generator",
     results: [
       { title: "Find skilled professionals for services." },
       { title: "Connecting users with nearby experts." },
