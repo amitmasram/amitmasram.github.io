@@ -133,18 +133,6 @@ const hobbies = [
             top: '70%',
       },
       {
-            title: "AI & AGI",
-            emoji: "🤖",
-            left: '70%',
-            top: '30%',
-      },
-      {
-            title: "Tech Trends",
-            emoji: "🚀",
-            left: '50%',
-            top: '55%',
-      },
-      {
             title: "Travel",
             emoji: "🌍",
             left: '20%',
