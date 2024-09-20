@@ -1,4 +1,4 @@
-import tourEase from "@/assets/images/tourease2.png";
+import tourEase from "@/assets/images/Frame 1 (1).png";
 import careDash from "@/assets/images/caredash.png";
 import aiStartupLandingPage from "@/assets/images/ai-image.png";
 import Image from "next/image";
