@@ -17,7 +17,7 @@ const portfolioProjects = [
       { title: "Planning and location recommendations" },
       { title: "Seamless integration with Google Maps" },
     ],
-    link: "https://github.com/Amitmasram/TourEase_App",
+    link: "https://tourease.us/",
     image: tourEase,
   },
   {

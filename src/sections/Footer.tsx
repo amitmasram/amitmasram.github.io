@@ -4,15 +4,15 @@ import ArrowUpRightIcon from "@/assets/icons/arrow-up-right.svg";
 const footerLinks = [
   {
     title: 'LinkedIn',
-    href: 'https://www.linkedin.com/in/amit-masram/',
+    href: 'https://www.linkedin.com/in/sumit-masram-564aba268/',
   },
   {
     title: 'Twitter',
-    href: 'https://x.com/AmitMasram10',
+    href: 'https://x.com/sumitmasra24080',
   },
   {
     title: 'Github',
-    href: 'https://github.com/Amitmasram',
+    href: 'https://github.com/sumitmasram',
   },
 ];
 
@@ -25,7 +25,7 @@ export const Footer = () => {
       {/* Footer content */}
       <div className="container mx-auto px-4">
         <div className="border-t border-white/15 py-6 text-sm flex flex-col md:flex-row md:justify-between items-center gap-8">
-          <div className="text-white/40">© 2024. All rights reserved.</div>
+          <div className="text-white/40">© 2024 Sumit Dev. All rights reserved.</div>
           <nav className="flex flex-col md:flex-row items-center gap-8">
             {footerLinks.map(link => (
               <a

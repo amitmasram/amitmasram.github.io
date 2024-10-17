@@ -23,7 +23,7 @@ export const ContactSection = () => {
             </div>
             <div>
               <a
-                href="mailto:amitmasram831@gmail.com"
+                href="mailto:shishupalmasram12@gmail.com"
                 className="text-white bg-gray-900 inline-flex items-center px-6 h-12 rounded-xl gap-2 w-max border border-gray-900 transition-all duration-300 ease-in-out hover:bg-gray-800 hover:scale-105 active:scale-95"
               >
                 <span className="font-semibold">Contact Me</span>
