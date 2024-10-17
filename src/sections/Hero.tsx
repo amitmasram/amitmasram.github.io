@@ -116,7 +116,7 @@ export const HeroSection = () => {
   <div className="rounded-xl p-4">
     <h1 className="font-serif text-3xl md:text-5xl text-center mt-8 tracking-wide text-white">Sumit Masram</h1>
     <p className="mt-4 text-center text-gray-400 md:text-lg">
-      An Engineer who builds Apps for Mobile and Web.
+      A Full-Stack Developer who builds Apps for Mobile and Web.
     </p>
   </div>
 </div>
