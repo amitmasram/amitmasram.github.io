@@ -19,7 +19,7 @@ import SupabseIcon from "@/assets/icons/icons8-supabase (1).svg";
 import MongoIcon from "@/assets/icons/download (4).svg";
 import GithubIcon from "@/assets/icons/github.svg";
 import NodeIcon from "@/assets/icons/icons8-nodejs-512.svg";
-import mapImage from "@/assets/images/sf.png";
+import mapImage from "@/assets/images/ngpu.png";
 import smileMemoji from "@/assets/images/memoji-smile.png"
 import { CardHeader } from "@/components/CardHeader";
 import { ToolboxItems } from "@/components/ToolboxItems";
@@ -97,7 +97,7 @@ const toolboxItems = [
 
 const hobbies = [
       {
-       title: "Netflix",
+       title: "Movies",
        emoji: "🎬",
        left: '5%',
        top: '5%',
@@ -108,12 +108,12 @@ const hobbies = [
             left: '50%',
             top: '5%',
       },
-      {
-            title: "Writing",
-            emoji: "✍️",
-            left: '35%',
-            top: '40%',
-      },
+      // {
+      //       title: "Writing",
+      //       emoji: "✍️",
+      //       left: '35%',
+      //       top: '40%',
+      // },
       {
             title: "Music",
             emoji: "🎵",
@@ -139,11 +139,12 @@ const hobbies = [
             top: '75%',
       },
       {
-            title: "Wildlife",
-            emoji: "🦁",
-            left: '65%',
-            top: '80%',
-      },
+            title: "Technology",
+            emoji: "💻",
+            left: '20%',
+            top: '60%',
+        },
+   
 ];
 
 
